@@ -1,0 +1,9 @@
+[submodule "pack/dist/start/ctrlp.vim"]
+	path = pack/dist/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "pack/dist/start/vim-airline"]
+	path = pack/dist/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/themes/start/dracula"]
+	path = pack/themes/start/dracula
+	url = https://github.com/dracula/vim
