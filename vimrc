@@ -19,10 +19,17 @@ let g:ctrlp_cmd = 'CtrlPMRU'
 """plugin colorscheme dracula
 packadd! dracula
 syntax enable
-"colorscheme dracula
+colorscheme dracula
 
 
-"""misc
+"""colorscheme transparent
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NonText ctermbg=NONE guibg=NONE ctermfg=239
+highlight SpecialKey ctermbg=NONE guibg=NONE ctermfg=239
+highlight EndOfBuffer ctermbg=NONE guibg=NONE
+
+
+""""misc
 set virtualedit=block
 set ignorecase
 set wrapscan
@@ -33,7 +40,9 @@ set showmatch
 set title
 set number
 set directory=~/.vim/tmp
-set listchars=tab:>-,space:-,eol:$,trail:-
+set list listchars=tab:>-,space:-,eol:$,trail:-
+"https://qiita.com/ysn/items/f4fc8f245ba50d5fb8b0
+set noexpandtab tabstop=4 softtabstop=-1 shiftwidth=0
 
 
 """cursorline (only underline)
