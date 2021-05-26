@@ -38,11 +38,12 @@ set hlsearch
 set smartindent
 set showmatch
 set title
+set relativenumber
 set number
 set directory=~/.vim/tmp
 set list listchars=tab:>-,space:-,eol:$,trail:-
 "https://qiita.com/ysn/items/f4fc8f245ba50d5fb8b0
-set noexpandtab tabstop=4 softtabstop=-1 shiftwidth=0
+set noexpandtab tabstop=8 softtabstop=-1 shiftwidth=0
 
 
 """cursorline (only underline)
@@ -75,5 +76,4 @@ nnoremap <Leader>w :write<CR>
 
 """autocmd
 autocmd BufWritePre * :%s/\s\+$//e
-
 
